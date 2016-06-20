@@ -53,23 +53,29 @@ a:hover, a:focus {color: #666; text-decoration: none;}
 
 .n_menu ul.menu_list {overflow:hidden;}
 .n_menu ul.menu_list .list {float:left;}
-.n_menu ul.menu_list .list > a {display:inline-block; padding:5px 0; width:150px; height:30px; line-height:30px; font-size:16px; text-transform:uppercase; font-weight:bold;}
+.n_menu ul.menu_list .list > a {display:inline-block; padding:5px 0; width:150px; height:40px; line-height:35px; font-size:16px; text-transform:uppercase; font-weight:bold;}
 .n_menu ul.menu_list .list:nth-of-type(3) a,
 .n_menu ul.menu_list .list:nth-of-type(4) a,
 .n_menu ul.menu_list .list:nth-of-type(5) a {text-align:center;}
 .n_menu ul.menu_list .list a:hover {color:dodgerblue; text-decoration:underline;}
 
-.n_menu ul.menu_list .list1 .sub_wrap {position:absolute; top:45px; left:0; border-top:1px solid #ddd; border-bottom:5px solid #ddd; z-index:100;}
-.n_menu ul.menu_list .list1 .sub {overfow:hidden; padding:20px; width:980px; height:80px; line-height:1.2; background:#fff; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
-.n_menu ul.menu_list .list1 .sub:nth-of-type(even) {background:#eee;}
-.n_menu ul.menu_list .list1 .sub strong {float:left; width:20%;}
-.n_menu ul.menu_list .list1 .sub strong a {width:100%; height:100%; font-size:15px;}
-.n_menu ul.menu_list .list1 .sub ul {overflow:hidden; display:inline-block; width:80%;}
-.n_menu ul.menu_list .list1 .sub ul li {float:left; display:inline-block; width:20%;}
-.n_menu ul.menu_list .list1 .sub ul li img {width:40px; height:auto;}
-.n_menu ul.menu_list .list1 .sub ul li a {font-size:13px;}
+.n_menu ul.menu_list .list .sub_wrap {display:none; position:absolute; top:45px; left:0; border-top:1px solid #ddd; border-bottom:5px solid #ddd; z-index:100;}
+.n_menu ul.menu_list .list .sub {overfow:hidden; padding:20px; width:980px; height:80px; line-height:1.2; background:#fff; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.n_menu ul.menu_list .list .sub:nth-of-type(even) {background:#eee;}
+.n_menu ul.menu_list .list .sub strong {float:left; width:20%;}
+.n_menu ul.menu_list .list .sub strong a {width:100%; height:100%; font-size:15px;}
+.n_menu ul.menu_list .list .sub ul {overflow:hidden; display:inline-block; width:80%;}
+.n_menu ul.menu_list .list .sub ul li {float:left; display:inline-block; width:20%;}
+.n_menu ul.menu_list .list .sub ul li a {font-size:13px;}
+.n_menu ul.menu_list .list .sub ul li a img {width:40px; height:auto;}
 
+.n_menu ul.menu_list .list2 .sub {padding-bottom:0; height:100%;}
+.n_menu ul.menu_list .list2 .sub ul {width:100%;}
+.n_menu ul.menu_list .list2 .sub ul li {margin-bottom:20px; width:16.6667%; text-align:center;}
+.n_menu ul.menu_list .list2 .sub ul li a img {width:50px;}
+.n_menu ul.menu_list .list2 .sub ul li a span {display:block;}
 
+.n_menu ul.menu_list .list .sub_wrap.open {display:block;}
 
 
 
