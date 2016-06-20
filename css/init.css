@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* reset */
+html, body {width:100%; height:100%; margin:0 auto;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, table, th, td, pre, code {margin: 0; padding: 0;}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, form,fieldset,p,th,td,input,textarea,select,button,pre {color: #333333; font-family: "나눔고딕",Nanum Gothic,"맑은고딕",Malgun Gothic,"돋움",Dotum,Helvetica,sans-serif; font-size: 12px; line-height: 1.7;}
+
+textarea { width:99%;}
+a, select,input,img, button {vertical-align:middle;}
+img, fieldset, button {margin:0; padding:0; border:none;}
+ul, ol, li, dl, dt, dd {list-style:none;}
+em, address { font-style:normal;}
+table { border-collapse:collapse; border-spacing:0; width:100%;}
+a {color: #666; text-decoration: none;}
+a:hover, a:focus {color: #666; text-decoration: none;}
+.blind {overflow: hidden; position: absolute; left:0; top:0; width:0; height:0; font-size:0; line-height:0;}
+
+
+/* main page */
+#wrap {width:100%;}
+#header {width:100%; height:60px;}
+#nav {width:100%; height:50px;}
+#slide {width:100%; height:600px;}
+#contents {width:100%;}
+#sns {width:100%; height:60px; background:#ddd;}
+#footer {width:100%; height:100px;}
+
+/*container*/
+.header_cont {position:relative; margin:0 auto; width:980px;}
+.nav_cont {position:relative; margin:0 auto; width:980px;}
+.slide_cont {position:relative; margin:0 auto; width:1300px;}
+.contents_cont {position:relative; margin:0 auto; width:980px;}
+.sns_cont {position:relative; margin:0 auto; width:980px;}
+.footer_cont {position:relative; margin:0 auto; width:980px;}
+
+
+/* header */
+.h_logo {overflow:hidden; display:inline-block; width:300px;}
+.h_logo img {float:left; margin-top:7px; margin-right:15px; width:auto; height:50px;}
+.h_logo h1 {display:inline-block; margin-top:14px; font-size:22px;}
+.h_logo h1 a {color:dodgerblue;}
+.h_menu {position:absolute; top:15px; right:0; display:inline-block;}
+.h_menu a {display:inline-block; margin-left:10px; height:30px; line-height:30px; text-align:center;}
+.h_menu a:hover {text-decoration:underline;}
+
+
+/*nav*/
+.n_menu {}
+.n_menu ul {}
+.n_menu ul li {}
+.n_menu ul li a {}
+
+
+.n_menu ul.menu_list {overflow:hidden;}
+.n_menu ul.menu_list .list {float:left;}
+.n_menu ul.menu_list .list > a {display:inline-block; padding:5px 0; width:150px; height:30px; line-height:30px; font-size:16px; text-transform:uppercase; font-weight:bold;}
+.n_menu ul.menu_list .list:nth-of-type(3) a,
+.n_menu ul.menu_list .list:nth-of-type(4) a,
+.n_menu ul.menu_list .list:nth-of-type(5) a {text-align:center;}
+.n_menu ul.menu_list .list a:hover {color:dodgerblue; text-decoration:underline;}
+
+.n_menu ul.menu_list .list1 .sub_wrap {position:absolute; top:45px; left:0; border-top:1px solid #ddd; border-bottom:5px solid #ddd; z-index:100;}
+.n_menu ul.menu_list .list1 .sub {overfow:hidden; padding:20px; width:980px; height:80px; line-height:1.2; background:#fff; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.n_menu ul.menu_list .list1 .sub:nth-of-type(even) {background:#eee;}
+.n_menu ul.menu_list .list1 .sub strong {float:left; width:20%;}
+.n_menu ul.menu_list .list1 .sub strong a {width:100%; height:100%; font-size:15px;}
+.n_menu ul.menu_list .list1 .sub ul {overflow:hidden; display:inline-block; width:80%;}
+.n_menu ul.menu_list .list1 .sub ul li {float:left; display:inline-block; width:20%;}
+.n_menu ul.menu_list .list1 .sub ul li img {width:40px; height:auto;}
+.n_menu ul.menu_list .list1 .sub ul li a {font-size:13px;}
+
+
+
+
+
+
+
+
+
+
+
+.n_search {position:absolute; display:inline-block; top:0; right:0;}
+.n_search div {position:relative; margin-top:3px; width:200px; height:32px; border:1px solid #929497;}
+.n_search div input {border:0; outline:0;}
+.n_search .search_text {padding-left:5px; width:160px; height:30px; font-size:14px;}
+.n_search .search_btn {position:absolute; top:1px; right:0; padding:0; width:30px; height:30px;}
+
+
+/* slide */
+.s_slider {width:1300px; height:550px;}
+.s_slider li {width:1300px; height:550px;}
+.s_slider li img {width:100%; height:100%;}
+.s_slider li:nth-of-type(2),
+.s_slider li:nth-of-type(3) {display:none;}
+
+
+/* contents */
+.products {overflow:hidden;}
+.products > div {float:left; margin:30px 0; border:1px solid #ddd; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.products > div:nth-of-type(1),
+.products > div:nth-of-type(2),
+.products > div:nth-of-type(4),
+.products > div:nth-of-type(5) {border-right:0;}
+
+.products .products1 {width:33.3333%;}
+.products .products2 {width:33.3333%;}
+.products .products3 {width:33.3333%;}
+.products .products4 {width:33.3333%;}
+.products .products5 {width:33.3333%;}
+.products .products6 {width:33.3333%;}
+
+.products .product div {}
+.products .product .p_img {}
+.products .product .p_img img {width:100%; height:120px;}
+.products .product .p_text {padding:10px;}
+.products .product .p_text p {margin-bottom:10px; font-size:14px;}
+.products .product .p_text p.title {margin-bottom:5px; font-size:22px; font-weight:bold;}
+.products .product .p_text p.title:hover {text-decoration:underline;}
+.products .product .p_text p a {}
+.products .product .p_text p a:hover {text-decoration:underline;}
+.products .product .p_text span {}
+.products .product .p_text span a {font-size:14px; color:deepskyblue;}
+.products .product .p_text span a:hover {text-decoration:underline;}
+
+
+.contact {}
+.contact .contact_cont {overflow:hidden;}
+.contact .contact_cont div {float:left; width:25%; height:110px; border:1px solid #ddd; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.contact .contact_cont div a {position:relative; display:inline-block; width:100%; height:100%;}
+.contact .contact_cont div a img {position:absolute; bottom:13px; left:20px; width:80px; height:auto;}
+.contact .contact_cont div a span {position:absolute; bottom:35px; left:120px; font-size:20px; color:dodgerblue;}
+.contact .contact_cont div a:hover span {text-decoration:underline;}
+
+.contact .contact_cont div:nth-of-type(1),
+.contact .contact_cont div:nth-of-type(2),
+.contact .contact_cont div:nth-of-type(3) {border-right:0;}
+
+
+.news {margin:30px 0;}
+.news .news_cont {overflow:hidden; width:100%; height:189px;}
+.news .news_cont .n_news {float:left; position:relative; width:23.5%; height:100%; display:inline-block;}
+.news .news_cont .n_news::before {content:''; position:absolute; display:inline-block; top:0; left:0; width:50px; height:20px; background:#000; opacity:0.5; z-index:10;}
+.news .news_cont .n_news::after {content:'News'; position:absolute; display:inline-block; top:0; left:0; width:50px; height:20px; color:#fff; text-align:center; z-index:10;}
+
+.news .news_cont .n_news a {position:absolute; display:inline-block; bottom:-189px; left:0; width:100%; background:dodgerblue; color:#fff;}
+.news .news_cont .n_news a:hover {text-decoration:underline;}
+.news .news_cont .n_news a img {}
+.news .news_cont .n_news a div {padding:15px;}
+.news .news_cont .n_news a div p {color:#fff;}
+.news .news_cont .n_news a div p.title {margin-top:15px; margin-bottom:10px; font-size:16px; font-weight:bold;}
+.news .news_cont .n_news a div span {color:#fff;}
+
+.news .news_cont .news1,
+.news .news_cont .news2,
+.news .news_cont .news3 {margin-right:1%;}
+
+.news .news_cont .news2,
+.news .news_cont .news3,
+.news .news_cont .news4 {margin-left:1%;}
+
+.news .news_cont .news1 {background:url("../images/thumb_globaldream.jpg") no-repeat; background-size:100% 189px;}
+.news .news_cont .news2 {background:url("../images/thumb_globaldream.jpg") no-repeat; background-size:100% 189px;}
+.news .news_cont .news3 {background:url("../images/thumb_globaldream.jpg") no-repeat; background-size:100% 189px;}
+.news .news_cont .news4 {background:url("../images/thumb_globaldream.jpg") no-repeat; background-size:100% 189px;}
+
+
+/* sns */
+.sns_cont a {display:inline-block; margin-top:15px; margin-right:40px; height:35px; font-size:13px; color:#000;}
+.sns_cont a img {display:inline-block; margin-right:5px; width:30px; height:auto;}
+.sns_cont a:hover {text-decoration:underline;}
+
+
+/* footer */
+.f_text {margin:25px 0 15px;}
+.f_text a {display:inline-block; margin-right:20px; font-size:13px; font-weight:bold; color:#333;}
+.f_text a:hover {text-decoration:underline;}
+
+.f_copyright {}
+.f_copyright p {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
