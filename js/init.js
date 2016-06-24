@@ -53,6 +53,7 @@ $(".mobile_menu_icon").on("click", function(){
     $("body").css("overflow-y", "hidden");
   }else{
     $("#mobileNav").animate({"left":"-270px"}, 250);
+    $("body").css("overflow-y", "scroll");
   }
 });
 
