@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>  <!-- HTML5에서의 문서타입선언문입니다. 간단해요. -->
+<html>
+<head> <!-- <head></head> 태그는 웹페이지에 보여지지 않는, 즉 해당 문서의 정보를 담고있는 부분이에요. 여기에는 수많은 정보를 넣을 수가 있어요. -->
+	<meta charset="utf-8"> <!-- 파일 저장방식과 문서에서 언어 인코딩 설정은 무조건 utf-8로 하기 -->
+	<title>제목</title>  <!-- 문서의 타이틀을 정의해요. -->
+	<style>
+	table, tr, td {
+		border:1px solid #000;
+	}
+	td {
+		padding:5px 20px;
+	}
+	</style>
+</head>
+<body>
+<!-- html 코드는 <body></body> 태그 안에 작성, 웹페이지에 직접 보여지는 부분이에요. -->
+
+<!-- 
+	이것은 html 주석 표기문입니다. 
+	주석문은 초록색 또는 회색으로 나오죠. 
+	모든 프로그램언어에서의 주석문은 초록색 또는 회색으로 나타납니다. 
+	주석문이 초록색으로 나오지 않는다면 그건 주석문이 잘못 작성된거에요. 
+	원인은 그때그때 찾아보세요. 
+-->
+
+
+<h1>제목1 - h1태그는 해당 페이지에서 가장 중요한 텍스트이자 제목인 곳에 붙이는 태그이며 html 문서하나에 한번만 선언할 수 있어요.</h1>
+<h2>제목2 - h2</h2>
+<h3>제목3 - h3</h3>
+<h4>제목4 - h4</h4>
+<h5>제목5 - h5</h5>
+<h6>제목6 - h6</h6>
+
+<hr>
+
+<p>p태그는 문장을 쓰는 태그입니다. - 블럭 요소에요.</p>
+<span>span태그는 문장 또는 단어에 쓰는 태그입니다. - 인라인 요소에요.</span>
+<p>
+	오늘은 전국에 구름 많이 끼겠고 대기가 <i>불안정</i>해지면서 내륙 지역에는 <strong>소나기</strong>가 오는 곳이 많겠습니다.<br>
+	<strong>소나기</strong>의 양은 5에서 30mm 정도 예상되고, <strong>소나기</strong>가 오는 동안 <em>돌풍</em>이 불고 <em>벼락</em>이 치는 곳도 있겠습니다.<br>
+	오늘 낮 기온은 서울 <mark>27도</mark>, 광주 <mark>28도</mark>, 대구는 <mark>30도</mark>로 중부 지방은 어제보다 조금 낮고, 남부 지방은 어제와 비슷하겠습니다.<br>
+	바다의 물결은 모든 해상에서 <sup>0.5</sup>에서 <sub>2미터</sub>로 비교적 낮게 일겠지만, 해상 곳곳에 짙은 <em>안개</em>가 끼겠습니다.<br>
+	기상청은 내일부터 장마전선이 다시 북상해 <del>다음 주 초까지 전국에 비가 오는 날이 많겠다고 예보했습니다.</del>
+</p>
+
+<hr>
+
+<div>div태그는 아무 의미없는 박스에요. 대신 웹페이지 레이아웃잡을때 아주 요긴하고, 아무 의미가 없어서 아무곳에서나 막 써요. - 블럭 요소에요.</div>
+
+<hr>
+
+<a href="경로">a태그는 페이지 이동 링크에요.</a>
+<a href="경로">페이지 이동 링크에요.</a>
+<a href="경로">페이지 이동 링크에요.</a><br>
+<a href="경로">페이지 이동 링크에요.</a><br>
+<a href="http://www.naver.com" target="_blank">새 창으로 네이버로 이동해요.</a>
+
+<hr>
+
+<br> <!-- 줄바꿈 태그에요. 닫는 태그가 없어요. -->
+<hr> <!-- 구분선 태그에요. 닫는 태그가 없어요. -->
+
+<img src="이미지경로" alt="이미지 설명">  <!-- img태그는 닫는 태그가 없어요. -->
+<br>
+<img src="http://www.w3schools.com/html/img_sem_elements.gif" alt="HTML5 시맨틱 구조 이미지">
+
+<hr>
+
+<figure>
+	<img src="http://cfile26.uf.tistory.com/image/2463694C53D0A5D80629B3" alt="이미지 설명"> 
+	<figcaption>여자의 뒷모습</figcaption>  <!-- 이미지에 대한 설명이 아래에 나타나요. -->
+</figure>
+
+<hr>
+
+<ul>
+	<li>ul - li 순서가 없는리스트</li>
+	<li>ul - li 순서가 없는리스트</li>
+	<li>ul - li 순서가 없는리스트</li>
+</ul>
+
+<ol>
+	<li>ol - li 순서가 있는 리스트</li>
+	<li>ol - li 순서가 있는 리스트</li>
+	<li>ol - li 순서가 있는 리스트</li>
+</ol>
+
+<dl>  <!-- 용어를 설명하는 목록을 만드는 태그 definition list -->
+	<dt>커피</dt>  <!-- 용어의 제목을 넣는 태그 definition term -->
+	<dd>까만색 뜨거운 음료</dd>  <!-- 용어를 설명하는 태그 definition description -->
+	<dt>우유</dt>
+	<dd>하얗고 시원한 음료</dd>
+</dl>
+
+
+<select>
+	<option>사과</option>
+	<option>바나나</option>
+	<option>포도</option>
+	<option>딸기</option>
+	<option>수박</option>
+</select>
+
+<hr>
+
+<table> <!-- 테이블을 쉽게 보이기 위해 맨 위에 <head></head> 태그안에 <style></style>로 CSS 작성했습니다. -->
+	<caption>테이블 제목</caption>
+	<tr>
+		<td>1 X 1</td>
+		<td>1 X 2</td>
+		<td>1 X 3</td>
+	</tr>
+	<tr>
+		<td>2 X 1</td>
+		<td>2 X 2</td>
+		<td>2 X 3</td>
+	</tr>
+	<tr>
+		<td>3 X 1</td>
+		<td>3 X 2</td>
+		<td>3 X 3</td>
+	</tr>
+</table>
+
+<hr>
+
+<form method="파일전송방식" action="폼을 보낼 파일">
+	<input><br>  <!-- input 태그는 닫는태그가 없어요. 기본 type은 text 에요. -->
+	<input type="text" placeholder="텍스트"><br>
+	<input type="password" placeholder="비밀번호"><br>
+	<input type="button" value="버튼"><br>
+	<input type="checkbox"><br>
+	<input type="radio"><br>
+	<input type="date"><br>
+	<input type="month"><br>
+	<input type="week"><br>
+	<input type="color"><br>
+	<input type="email" placeholder="이메일"><br>
+	<input type="file"><br>
+	<input type="hidden"><br>
+	<input type="number" value="5"><br>
+	<input type="range"><br>
+	<input type="tel" placeholder="전화번호"><br>
+	<input type="url" placeholder="URL"><br>
+	<input type="reset"><br>  <!-- input 에 작성한 내용이 다 지워져요. -->
+	<input type="submit">  <!-- input에 작성한 내용이 서버로 전송되요. -->
+	
+	<hr>
+	<!-- 보통 label 태그와 input 태그를 같이 써요. label 태그는 말 그대로 라벨을 붙혀준다는 의미에요. -->
+	<label>이름 : </label>
+	<input type="text">
+	<label>나이 : </label>
+	<input type="text">
+</form>
+
+<hr>
+
+<audio controls>
+	<source src="horse.ogg" type="audio/ogg">
+	<source src="horse.mp3" type="audio/mpeg">
+	Your browser does not support the audio tag.
+</audio>
+
+<hr>
+
+<video width="320" height="240" controls>
+	<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+
+<hr>
+
+<!-- iframe 태그는 웹페이지 내에서 다른 문서를 불러오고 싶을 때 사용합니다. -->
+<iframe src="http://www.w3schools.com" width="700" height="300">
+	<p>Your browser does not support iframes.</p>
+</iframe>
+
+
+</body>
+</html>
