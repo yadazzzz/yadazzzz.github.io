@@ -1,16 +1,7 @@
 /* 640 ~ 767 */
 
-/* container */
-.header_cont {}
-.contents1_cont {width:90%;}
-.contents2_cont {width:90%;}
-.footer_cont {width:90%;}
-
-
-
 /* contents1 */
 .contents1_cont .skill ul li {margin-right:0; margin-bottom:50px; width:100%;}
-
 
 
 /* contents2 */
