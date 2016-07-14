@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>스터디2차실습 - 서브페이지</title>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/init.css">
+<link rel="stylesheet" type="text/css" href="css/1200.css" media="screen and (max-width:1399px)"> <!-- 1200 ~ 1399 -->
+<link rel="stylesheet" type="text/css" href="css/768.css" media="screen and (max-width:1199px)"> <!-- 768 ~ 1199 -->
+<link rel="stylesheet" type="text/css" href="css/540.css" media="screen and (max-width:767px)"> <!-- 540 ~ 767 -->
+<link rel="stylesheet" type="text/css" href="css/0.css" media="screen and (max-width:539px)"> <!-- 0 ~ 539 -->
+
+<!-- Script -->
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.js"></script>-->
+<!--<script type="text/javascript" src="js/init.js"></script>-->
+</head>
+<body>
+
+<div id="wrap">
+    <header id="header">
+        <div class="header_cont">
+            <h1><a href="index.html">Portfolio</a></h1>
+            <ul>
+                <li><a href="index.html">work</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="active"><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- // header -->
+
+    <section id="contents">
+        <div class="contents_cont contact_sub">
+            <h2>Get in Touch!</h2>
+            <form method="post" action="">
+                <div>
+                    <textarea name="text" rows="8" placeholder="Your Message"></textarea>
+                    <p>
+                        <input type="text" name="name" id="name">
+                        <label for="name">NAME</label>
+                    </p>
+                    <p>
+                        <input type="email" name="email" id="email">
+                        <label for="email">EMAIL</label>
+                    </p>
+                    <p>
+                        <input type="tel" name="tel" id="tel">
+                        <label for="tel">TEL</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">I authorise the use of my personal data in compliance with Legislative Decree 196/03.</label>
+                    </p>
+                </div>
+                <input type="submit" value="SEND">
+            </form>
+        </div>
+    </section>
+    <!-- section -->
+
+    <footer id="footer">
+        <div class="footer_cont">
+            <div><img src="images/sign.png" alt="footer-image"></div>
+            <p>&copy; 2016 Portfolio | <a href="#">Privacy</a> | <a href="#">Cookie</a></p>
+        </div>
+    </footer>
+    <!-- // footer -->
+</div>
+
+
+</body>
+</html>

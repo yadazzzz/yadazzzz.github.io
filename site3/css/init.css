@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Jura);
+
+/* reset */
+html, body {width:100%; height:100%; margin:0 auto; background:#f9f0ea;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, table, th, td, pre, code {margin: 0; padding: 0;}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, form,fieldset,p,th,td,input,textarea,select,button,pre {color: #333333; font-family:'Jura', sans-serif; font-size: 12px; line-height: 1.7;}
+
+textarea {width:99%;}
+a, select,input,img, button {vertical-align:middle;}
+img, fieldset, button {margin:0; padding:0; border:none;}
+ul, ol, li, dl, dt, dd {list-style:none;}
+em, address {font-style:normal;}
+table {border-collapse:collapse; border-spacing:0; width:100%;}
+a {color: #666; text-decoration: none;}
+a:hover, a:focus {color: #666; text-decoration: none;}
+.blind {overflow: hidden; position: absolute; left:0; top:0; width:0; height:0; font-size:0; line-height:0;}
+
+
+
+/*************************************************************************************************/
+/************************************  Main Page (Work Page)  ************************************/
+/*************************************************************************************************/
+/* layout */
+#wrap {width:100%; height:100%;}
+#header {overflow:hidden; width:100%;}
+#contents {overflow:hidden; width:100%;}
+#footer {overflow:hidden; width:100%;}
+
+
+/* container */
+.header_cont {position:relative; margin:0 auto; padding:30px 0; width:1400px; height:72px;}
+.contents_cont {margin:0 auto; width:1200px;}
+.footer_cont {margin:0 auto; padding:30px 0; width:1200px;}
+
+
+/* header */
+.header_cont h1 {}
+.header_cont h1 a {display:inline-block; padding:9px 0; color:#ff584c; font-size:32px; text-transform:uppercase;}
+.header_cont ul {overflow:hidden; position:absolute; top:42px; right:0; display:inline-block;}
+.header_cont ul li {float:left;}
+.header_cont ul li.active a {color:#333;}
+.header_cont ul li a {display:inline-block; padding:12px; color:#ff584c; text-transform:uppercase; font-weight:bold; font-size:14px;}
+.header_cont ul li:hover a {color:#333;}
+
+
+/* contents */
+.contents_cont {}
+.contents_cont h2 {padding:60px 12px; font-size:48px; line-height:48px; font-weight:normal; text-align:center;}
+.contents_cont ul {overflow:hidden;}
+.contents_cont ul li {float:left; margin-right:2.5%; margin-bottom:2.5%; width:23.125%; height:380px;}
+.contents_cont ul li:nth-of-type(4n) {margin-right:0;}
+.contents_cont ul li a {overflow:hidden; position:relative; display:inline-block; width:100%; height:100%; color:#ff584c;}
+.contents_cont ul li a img {width:auto; height:100%; -webkit-transform:translateX(-200px); -moz-transform:translateX(-200px); transform:translateX(-200px);}
+.contents_cont ul li a p {
+    position:absolute;
+    top:0;
+    width:100%; height:100%;
+    font-size:18px; font-weight:bold; color:#ff584c; text-transform:uppercase;
+    text-align:center; line-height:330px;
+    opacity:0;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s;
+}
+.contents_cont ul li a span {
+    display:block;
+    position:absolute; top:52%;
+    width:100%;
+    font-size:14px; text-transform:uppercase;
+    text-align:center;
+    opacity:0;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s;
+}
+.contents_cont ul li a {}
+.contents_cont ul li a:hover p {line-height:350px; opacity:1; background:rgba(0,0,0,0.7);}
+.contents_cont ul li a:hover span {top:50%; opacity:1;}
+
+
+/* footer */
+.footer_cont {}
+.footer_cont div {text-align:center;}
+.footer_cont div img {}
+.footer_cont p {margin:20px; text-align:center; font-size:14px;}
+.footer_cont p a {color:#ff584c;}
+
+
+
+/*************************************************************************************************/
+/******************************************  About Page  *****************************************/
+/*************************************************************************************************/
+.about_sub {}
+.about_sub article {}
+.about_sub article h2 {}
+.about_sub article p {margin:0 25px 25px; text-align:center; font-size:22px;}
+
+.about_sub article h3 {position:relative; padding:60px 12px 30px; text-align:center; font-size:26px;}
+.about_sub article h3::after {content:""; position:absolute; left:50%; bottom:20px; width:100px; height:1px; background:#000; -webkit-transform:translateX(-50%); -moz-transform:translateX(-50%); transform:translateX(-50%);}
+.about_sub article p a {}
+
+.about_sub article h4 {padding:0 12px; font-style:italic; font-weight:normal; font-size:18px;}
+.about_sub article ul {padding:0 12px;}
+.about_sub article ul li {margin-right:5%; width:30%; height:100%;}
+.about_sub article ul li:last-of-type {margin-right:0;}
+.about_sub article ul li p {margin:0; text-align:left; font-size:18px;}
+
+.about_sub .contact_btn {margin:50px auto; width:230px; height:60px; border:1px solid #333; -webkit-transition:all .5s; -moz-transition:all .5s; -o-transition:all .5s; transition:all .5s;transition:all .5s;}
+.about_sub .contact_btn a {display:block; width:100%; height:100%; line-height:60px; margin-left:57px; font-size:20px; color:#333; -webkit-transition:all .5s; -moz-transition:all .5s; -o-transition:all .5s; transition:all .5s;transition:all .5s;}
+.about_sub .contact_btn a::after {content:"→"; display:inline-block; margin-left:20px; opacity:0; -webkit-transition:all .5s; -moz-transition:all .5s; -o-transition:all .5s; transition:all .5s;transition:all .5s;}
+.about_sub .contact_btn:hover {width:250px;}
+.about_sub .contact_btn:hover a {margin-left:50px;}
+.about_sub .contact_btn:hover a::after {opacity:1;}
+
+
+
+/*************************************************************************************************/
+/*****************************************  Contact Page  ****************************************/
+/*************************************************************************************************/
+.contact_sub {}
+.contact_sub h2 {}
+.contact_sub form {}
+.contact_sub form div {overflow:hidden; width:100%; height:100%;}
+.contact_sub form textarea {float:left; margin-right:2%; padding:5px; width:49%; border:1px solid #333; background:none; font-size:18px; box-sizing:border-box;}
+.contact_sub form p {float:left; position:relative; margin-bottom:30px; width:49%;}
+.contact_sub form p label {position:absolute; top:0; left:0; display:inline-block; padding:0 2%; width:10%; height:45px; line-height:45px; border-right:1px solid #333; font-size:18px; text-align:center;}
+.contact_sub form p input {padding-left:16%; padding-right:2%; width:100%; height:45px; border:1px solid #333; background:none; font-size:18px; box-sizing:border-box; outline:none;}
+.contact_sub form p input:focus + label {background:#000; color:#fff;}
+
+.contact_sub form label[for="agree"] {margin-left:6%; padding:0; width:94%; height:inherit; line-height:1.2; font-size:14px; text-align:left; border-right:0;}
+.contact_sub form input[type="checkbox"] {margin-top:-2px; width:15px; height:15px;}
+.contact_sub form input[type="checkbox"]:focus + label[for="agree"] {background:none; color:#333;}
+
+.contact_sub form input[type="submit"] {display:block; margin:0 auto 50px; width:100px; height:60px; line-height:60px; background:#333; color:#fff; border:1px solid #333; font-size:30px; outline:none;}
+.contact_sub form input[type="submit"]:focus {background:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
